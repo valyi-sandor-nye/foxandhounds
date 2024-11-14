@@ -146,7 +146,7 @@ public class PlayOnTerminal {
                 System.out.print("Give integer as size \n ");
             }
             if (!(size <= 12 && size >= 4 && size % 2 == 0)) {
-                System.out.print("\nOnce again give the size of the table as an even integer between 4 and 12: ");
+                System.out.print("\nGive the size of the table as an even integer between 4 and 12: ");
             }
             else System.out.print("Ok, the size of the table: " + size + "\n");
         }

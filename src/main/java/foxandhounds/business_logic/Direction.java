@@ -6,7 +6,8 @@ package foxandhounds.business_logic;
  * @author valyis
  */
 public enum Direction {
-    NORTHWEST(-1,-1), NORTHEAST(-1,1),SOUTHWEST(1,-1),SOUTHEAST(1,1);
+    NORTHWEST(-1,-1), NORTHEAST(-1,1),
+    SOUTHWEST(1,-1),SOUTHEAST(1,1);
     final private int rowStep;
     final private int colStep;
     public int getRowStep() {return rowStep;}
